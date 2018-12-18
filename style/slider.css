@@ -1,0 +1,91 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -300px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes menuback {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: 0;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: -300px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+@keyframes process {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+.slider-container {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  height: 150px;
+  left: 10%;
+  top: 40%;
+}
+.slider-container #behind,
+.slider-container #forvard {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.slider-container #slider-content {
+  width: 25vw;
+}
+.slider-container #slider-content h1 {
+  color: #601f3c;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+.slider-container #slider-content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #601f3c;
+}
+@media only screen and (max-width: 600px) {
+  .slider-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .slider-container {
+    left: 8%;
+  }
+}

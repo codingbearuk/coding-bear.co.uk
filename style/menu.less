@@ -1,0 +1,63 @@
+@import 'var.less';
+
+.menuContainer{
+    position: fixed;
+    z-index: 101;
+    width: 20vw;
+    height: 100vh;
+    background-color: @fiolet;
+    box-sizing: border-box;
+    top: 0;
+    right: -20vw;
+    transition-duration: 0.5s;
+    color: @white;
+    font-size: 2rem;
+    visibility: hidden;
+
+    a{
+        font-size: 1.2rem;
+        color: @white;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    i{
+        padding-left: 2vw;
+        max-width: 4vw;
+        width: 4vw;
+    }
+    .remove{
+        font-size: 2rem;
+        color: @white;
+        text-align: right;
+        margin: 10px;
+        i{
+            cursor: pointer;
+        }
+    }
+}
+.menuActive{
+    visibility: visible;
+    right: 0;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 900px) {
+    .menuContainer{
+        width: 60vw;
+        right: -60vw;
+
+        i{
+            padding-left: 5vw;
+            max-width: 15vw;
+            width: 15vw;
+        }
+        a{
+            font-size: 0.9rem;
+        }   
+    }
+    .menuActive{
+        right: 0;
+    }
+}

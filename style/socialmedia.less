@@ -1,0 +1,54 @@
+@import 'var.less';
+
+.fb, .in, .pin, .git{
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    color: @white;
+    background-color: @yellow;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top:8px;
+    transition-duration: 0.2s;
+    a{
+        color: @white;
+    }
+}
+.fb{
+    top: 100px;
+}
+.in{
+    top: 150px;
+}
+.pin{
+    top: 200px;
+}
+.git{
+    top: 250px;
+}
+.fb:hover{
+    background-color: rgba(25, 73, 177, 0.993);
+    width: 80px;
+    transition-duration: 0.5s;
+    font-weight: 700;
+}
+.in:hover{
+    background-color: rgba(52, 107, 224, 0.993);
+    width: 80px;
+    transition-duration: 0.5s;
+    font-weight: 700;
+}
+.pin:hover{
+    background-color: rgba(231, 57, 57, 0.993);
+    width: 80px;
+    transition-duration: 0.5s;
+    font-weight: 700;
+}
+.git:hover{
+    background-color: rgba(29, 28, 28, 0.993);
+    width: 80px;
+    transition-duration: 0.5s;
+    font-weight: 700;
+}

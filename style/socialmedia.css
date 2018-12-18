@@ -1,0 +1,109 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -300px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes menuback {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: 0;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: -300px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+@keyframes process {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+.fb,
+.in,
+.pin,
+.git {
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  color: #fafcfb;
+  background-color: #e99b3c;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 8px;
+  transition-duration: 0.2s;
+}
+.fb a,
+.in a,
+.pin a,
+.git a {
+  color: #fafcfb;
+}
+.fb {
+  top: 100px;
+}
+.in {
+  top: 150px;
+}
+.pin {
+  top: 200px;
+}
+.git {
+  top: 250px;
+}
+.fb:hover {
+  background-color: rgba(25, 73, 177, 0.993);
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+.in:hover {
+  background-color: rgba(52, 107, 224, 0.993);
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+.pin:hover {
+  background-color: rgba(231, 57, 57, 0.993);
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+.git:hover {
+  background-color: rgba(29, 28, 28, 0.993);
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}

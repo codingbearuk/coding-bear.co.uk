@@ -1,0 +1,29 @@
+@import 'var.less';
+
+#offer{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: justify;
+    .one-icon-container{
+        display: flex;
+        height: 210px;
+        img{
+           width: 30%;
+        }
+        div{
+            text-align: center;
+            margin: auto;
+            flex: 26vw;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    #offer{
+        .one-icon-container{
+            display: block;
+            height: auto;
+        }
+    }
+}

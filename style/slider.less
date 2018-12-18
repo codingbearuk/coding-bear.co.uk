@@ -1,0 +1,44 @@
+@import 'var.less';
+
+.slider-container{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 150px;
+
+    left:10%;
+    top: 40%;
+    
+    #behind, #forvard{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    #slider-content{
+        width: 25vw;
+        h1{
+            color: @fiolet;
+            font-weight: 200;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: @fiolet;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .slider-container{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px){
+    .slider-container{
+        left:8%;
+    }
+}

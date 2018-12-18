@@ -1,0 +1,116 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -300px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes menuback {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: 0;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: -300px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+@keyframes process {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+nav .header {
+  width: 100%;
+  height: 95vh;
+  max-width: 100vw;
+  background-size: 100% 100%;
+  background-position: center;
+}
+nav .header .top-container {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2%;
+  padding-left: 3%;
+}
+nav .header .top-container .logo {
+  flex: 68.333332%;
+}
+nav .header .top-container .logo img {
+  width: 40vw;
+}
+nav .header .top-container .search {
+  flex: 25%;
+  text-align: right;
+}
+nav .header .top-container .search img {
+  cursor: text;
+}
+nav .header .top-container .burger {
+  flex: 9.333332%;
+  text-align: center;
+}
+nav .header .top-container .burger img {
+  cursor: pointer;
+}
+nav .bottom-container img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  right: 18%;
+  bottom: 13%;
+  animation: scrollBtn 1s infinite;
+  cursor: pointer;
+}
+.scroll-status {
+  background-color: #e99b3c;
+  height: 10px;
+  position: fixed;
+  z-index: 100;
+}
+@media only screen and (max-width: 500px) {
+  nav .search {
+    display: none;
+  }
+  nav .header .top-container .logo img {
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav .bottom-container img {
+    right: 40%;
+  }
+  nav .header .top-container .logo img {
+    width: 60vw;
+  }
+}

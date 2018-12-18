@@ -1,0 +1,251 @@
+@import 'var.less';
+
+#contact{
+    width: 100%;
+    min-height: 110vh;
+    max-width: 100vw;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 7vh;
+
+    .inputTemplate{
+        display: flex;
+        div:nth-child(1n){
+            flex: 10%;
+        }
+        div:nth-child(2n){
+            flex:80%;
+        }
+        div:nth-child(3n){
+            flex:10%;
+        }
+        font-size: 2rem;
+        color: @yellow;
+        text-align: left;
+        border: 3px solid;
+        border-color: @yellow;
+        transition-duration: 2s;
+        //height: 7vh;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        input, textarea{
+            width: 100%;
+            font-size: 1.4rem;
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+            border: none;
+            background-color: @white;
+
+        }
+        textarea{
+            height: 170px;
+        }
+        input:focus, textarea:focus{
+            border: none;
+            outline: none;
+        }
+    }
+
+    button{
+        width: 30vw;
+        border: 1px @fiolet solid;
+        // height: 70px;
+        font-size: 2rem;
+        color: @fiolet;
+        background: none;
+        margin-top: 20px;
+    }
+    button:hover{
+        color: @white;
+        background: @fiolet;
+    }
+    button:focus{
+        color: @white;
+        background: @fiolet;
+        outline: none;
+    }
+    #submit{
+        div{
+            margin: auto;
+            width: 30vw;
+            border: 1px #a3a3a3 solid;
+            // height: 70px;
+            font-size: 2rem;
+            color: #a3a3a3;
+            background: none;
+            margin-top: 20px;
+            cursor: not-allowed;
+        }
+    }
+    #contact-details-btn{
+        margin-top: 15px;
+    }
+    #details-btn{
+        button{
+            border: 0;
+            font-size: 1.2rem;
+            background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+            transition: 1s;
+            cursor: pointer;
+            width: auto;
+        }
+        button:hover{
+            color: @fiolet;
+            background-size: 100% .1em;
+        }
+    }
+}
+.divActive{
+    border-color: @fiolet !important;
+    transition-duration: 0.3s;
+    input:focus{
+        color: @fiolet;
+    }
+    i{
+        color: @fiolet; 
+    }
+}
+.divBad{
+    border-color: @red !important;
+    transition-duration: 0.3s;
+    input:focus{
+        color: @red;
+    }
+    i{
+        color: @red !important; 
+    }
+}
+.divOK{
+    border-color: #0e8e01 !important;
+    transition-duration: 0.3s;
+    input{
+        color: #0e8e01;
+    }
+    i{
+        color: #0e8e01 !important; 
+    }
+}
+.iconActive{
+    color: @fiolet;
+    transition-duration: 0.3s;
+}
+.iconBad{
+    color: @red;
+    transition-duration: 0.3s;
+}
+.iconOK{
+    color: #0e8e01;
+    transition-duration: 0.3s;
+}
+.actionCross{
+    color: @red;
+    text-align: right;
+    padding-right: 5px;
+}
+.hint{
+    box-sizing: border-box;
+    border: 1px @yellow solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+    background-color: rgb(228, 228, 228);
+    color: @fiolet;
+    padding: 5px;
+}
+
+.contact-details-container{
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    background-color:  rgba(0, 0, 0, 0.466);
+    width: 100vw;
+    height: 100vh;
+    div{
+        display:block;
+        width: 40vw;
+        //min-height: 20vh;
+        background-color: @white;
+        margin: auto;
+        div:nth-child(1n){
+            color: @fiolet;
+            font-size: 1.5rem;
+            width: 100%;
+            text-align: right;
+            padding-right: 10px;
+            i{
+                cursor: pointer;
+            }
+        }
+        div:nth-child(2n){
+            display: flex;
+            min-height: 30vh;
+            .logo-details{
+                flex: 40%;
+                text-align: center;
+                border-right: 3px solid @fiolet;
+                img{
+                    margin: auto;
+                }
+            }
+            .details-content{
+                //display: block;
+                flex-flow: column;
+                margin: auto;
+                margin-left: 15px;
+                solid{
+                    color: @yellow;
+                }
+                h1,h3,p{
+                    text-align: left;
+                    margin:0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #contact{
+        button{
+            width: 80%;
+        }
+        #submit{
+            div{
+                width: 80%;
+            }
+        }
+    }
+
+    .contact-details-container{
+        div{
+            width: 60vw;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    #contact{
+        button{
+            width: 80%;
+        }
+        #submit{
+            div{
+                width: 80%;
+            }
+        }
+    }
+    .contact-details-container{
+        div{
+            width: 100%;
+        }
+    }
+}

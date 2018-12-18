@@ -1,0 +1,74 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -300px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes menuback {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: 0;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: -300px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+@keyframes process {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+#offer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: justify;
+}
+#offer .one-icon-container {
+  display: flex;
+  height: 210px;
+}
+#offer .one-icon-container img {
+  width: 30%;
+}
+#offer .one-icon-container div {
+  text-align: center;
+  margin: auto;
+  flex: 26vw;
+}
+@media screen and (max-width: 500px) {
+  #offer .one-icon-container {
+    display: block;
+    height: auto;
+  }
+}

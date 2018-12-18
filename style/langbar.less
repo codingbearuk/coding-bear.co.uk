@@ -1,0 +1,36 @@
+@import 'var.less';
+
+.lang{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    top: 210px;
+    .pl, .eng{
+        box-sizing: border-box;
+        color: @white;
+        background-color: @yellow;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top:8px;
+        margin-top: 10px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+    .pl:hover{
+        background-color: @red;
+        width: 80px;
+        transition-duration: 0.5s;
+        font-weight: 700;
+    }
+    .eng:hover{
+        background-color: #036eff;
+        color: @red;
+        width: 80px;
+        transition-duration: 0.5s;
+        font-weight: 700;
+    }
+    .active{
+        font-weight: 700;
+    }
+}

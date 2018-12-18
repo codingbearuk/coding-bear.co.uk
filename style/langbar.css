@@ -1,0 +1,66 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -200px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+.lang {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  top: 210px;
+}
+.lang .pl,
+.lang .eng {
+  box-sizing: border-box;
+  color: #fafcfb;
+  background-color: #e99b3c;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 8px;
+  margin-top: 10px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.lang .pl:hover {
+  background-color: #c1272d;
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+.lang .eng:hover {
+  background-color: #036eff;
+  color: #c1272d;
+  width: 80px;
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+.lang .active {
+  font-weight: 700;
+}

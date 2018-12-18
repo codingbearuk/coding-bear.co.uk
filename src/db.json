@@ -1,0 +1,402 @@
+{"dataEng":[
+    {
+        "sectionName": "header",
+        "bg": "url(../images/header-bg.png)",
+        "mobileBg": "url(../images/mobile.png)",
+        "mobile600": "url(../images/mobile600.png)",
+        "logo": "../images/logo.png",
+        "search": "../images/search.png",
+        "burgerImg": "../images/hamburger.png",
+        "searchEngine": {
+            "emptyText": "Please input text for search"
+        },
+        "menu": [
+            {
+                "name": "home",
+                "icon": "<i class='fas fa-home'></i>",
+                "url": "#home"
+            }, 
+            {
+                "name": "welcome", 
+                "icon": "<i class='fas fa-american-sign-language-interpreting'></i>",
+                "url": "#welcome"
+            }, 
+            {
+                "name": "about", 
+                "icon": "<i class='fas fa-user-tie'></i>",
+                "url": "#about"
+            }, 
+            {
+                "name": "our services", 
+                "icon": "<i class='fas fa-cogs'></i>",
+                "url": "#services"
+            }, 
+            {
+                "name": "projects", 
+                "icon": "<i class='fas fa-code'></i>",
+                "url": "#projects"
+            }, 
+            {
+                "name": "contacts", 
+                "icon": "<i class='fas fa-mobile'></i>",
+                "url": "#contacts"
+            }
+        ],
+        "scrollImg": "../images/scroll.png",
+        "prev": "../images/behind.png",
+        "next": "../images/forvard.png",
+        "slider": [
+            {
+                "title": "Front-end programming",
+                "content": "using clean java script or React.js"
+            },
+            {
+                "title": "Back-end programming",
+                "content": "using node.js with express"
+            },
+            {
+                "title": "Web design",
+                "content": "creating design for web"
+            },
+            {
+                "title": "Graphics design",
+                "content": "creating Logos, bussiness card and much much more..."
+            } 
+        ]
+    },
+
+    {   
+        "sectionName": "Welcome",
+        "title": "Welcome to Coding Bear",
+        "content": "Coding Bear is a web-design and web development company based in Wrexham. If you are looking for  somebody who will do new website for your Brand you are in the right place. How the Bear likes to work? Every idea starts in his mind. He's creating idea first then move everything to peece of paper. Next phase is design in graphics program and create your view. When layout is finnished the Bear does the most important role - programming. Last phase is testing your application on the local server. If everythink is alright and works great the Bear host you app to a new server.",
+        "href": "#welcome",
+        "process": [
+            {
+                "title": "Research",
+                "img": "../images/research.png",
+                "desc": "First step of bear's work is research. We have to now about your everythink what is helpful for design process."
+            },
+            {
+                "title": "Design",
+                "img": "../images/design.png",
+                "desc": "Second step on way of creating your website is design. The Bear prepares layout and app map with every events inside your website."
+            },
+            {
+                "title": "Build",
+                "img": "../images/build.png",
+                "desc": "Then the Bear is programing frontend and backend of your app. In this step we need the biggest part of time."
+            },
+            {
+                "title": "Launch",
+                "img": "../images/launch.png",
+                "desc": "When whole app is ready the Bear needs to launch your app on server and create all domains. This is the last step on the way of projecting your website."
+            },
+            {
+                "title": "Support",
+                "img": "../images/support.png",
+                "desc": "After when work with app is complete the Bear can support your website if you wish."
+            }
+        ]
+    },
+
+    {
+        "sectionName": "About",
+        "title": "About the Bear",
+        "href": "#about",
+        "bg": "url(../images/about.png)",
+        "bgMobile": "url(../images/aboutmobile.png)",
+        "content": "Hello, my name is Kamil and I am a freelance programmer / web-developer. I acquired my skills and experience in Poland by studying and working directionally. As a result of it I have been created the Coding Bear brand under which I publish my websites / web applications. I base my projects mainly on a modern and energetically developing language which is javascript. This allows creating extremely fast interfaces using two way data binding. On the frontend side I design my application using the very fast ReactJS framework or pure javascript - depending on the complexity of the project entrusted to me. Backend of applications, however, depends on several factors (budget, complexity, time, individual preferences). I try to approach each client individually. Each company has different needs and chooses the different solutions and technologies - and I do my job the best I only can. I would like to invite you to acquaint with my offer. "
+    },
+
+    {
+        "sectionName": "Services",
+        "title": "What The Bear is offering to you?",
+        "content": "The Coding Bear offers you services in the field of broadly understood web design and development based on a modern and asynchronous language javascript. Our applications based on react.js framework for render viev and rest api for backend. The pages created in this way are modern and well scalable. In order to minimize costs, we also design websites using the well-known wordpress cms system. Each project is priced individually, and the final price depends on several factors - for example, such as the complexity of the project, needed time, availability of domains or your budget. Coding Bear is always trying to price the project in the most beneficial way for the client. we also provide support for already launched websites - ask for details individually.",
+        "href": "#offer",
+        "icons": [
+            {
+                "title": "Fully responsive",
+                "img": "../images/responsive.png"
+            },
+            {
+                "title": "Funcionality",
+                "img": "../images/funcionality.png"
+            },
+            {
+                "title": "High Performance",
+                "img": "../images/performance.png"
+            }
+        ]
+    },
+
+    {
+        "sectionName": "realizations",
+        "title": "The Bear's realizations",
+        "href": "#realizations",
+        "content": "undefined",
+        "background": "../images/realizations.png"
+    },
+
+    {
+        "sectionName": "contact",
+        "title": "How to contact with Bear",
+        "content": "undefined",
+        "href": "#contact",
+        "inputs": [ 
+            {   
+                "ID": "name",
+                "divID": "divName",
+                "actionID": "nameAction",
+                "value": "Put your name",
+                "icon": "fa-user-circle",
+                "type": "text",
+                "hover": "min length: 3 chars"
+            },
+            {
+                "ID": "surname",
+                "divID": "divSurname",
+                "actionID": "surnameAction",
+                "value": "Put your surname",
+                "icon": "fa-address-card",
+                "type": "text",
+                "hover": "min length: 3 chars"
+            },
+            {
+                "ID": "mail",
+                "divID": "divMail",
+                "actionID": "mailAction",
+                "value": "Put your email adress here",
+                "icon": "fa-at",
+                "type": "email",
+                "hover": "min length: 5 chars, and must contains @ symbol"
+            },
+            {
+                "ID": "number",
+                "divID": "divNumber",
+                "actionID": "numberAction",
+                "value": "Put your mobile phone",
+                "icon": "fa-mobile-alt",
+                "type": "text",
+                "hover": "min length: 6 chars, and must be a number"
+            }
+        ],
+        "textarea": {
+            "id": "textarea",
+            "content": "Your message"
+        },
+        "advice": "*for advice please hover icon on left hand site",
+        "or": "or",
+        "btn": "show contact details"
+    },
+
+    {
+        "sectionName": "footer",
+        "copyright": "Copyright © 2018-2019 Codding Bear - All Rights Reserved",
+        "background": "../images/footer.png",
+        "backgroundMobile": "../images/mobilefooter.png"
+    }
+],
+
+
+
+
+
+
+"dataPl":[
+    {
+        "sectionName": "header",
+        "bg": "url(../images/header-bg.png)",
+        "mobileBg": "url(../images/mobile.png)",
+        "mobile600": "url(../images/mobile600.png)",
+        "logo": "../images/logo.png",
+        "search": "../images/szukaj.png",
+        "burgerImg": "../images/hamburger.png",
+        "searchEngine": {
+            "emptyText": "Wpisz szukaną frazę"
+        },
+        "menu": [
+            {
+                "name": "home",
+                "icon": "<i class='fas fa-home'></i>",
+                "url": "#home"
+            }, 
+            {
+                "name": "witamy", 
+                "icon": "<i class='fas fa-american-sign-language-interpreting'></i>",
+                "url": "#welcome"
+            }, 
+            {
+                "name": "o nas", 
+                "icon": "<i class='fas fa-user-tie'></i>",
+                "url": "#about"
+            }, 
+            {
+                "name": "nasze usługi", 
+                "icon": "<i class='fas fa-cogs'></i>",
+                "url": "#services"
+            }, 
+            {
+                "name": "projekty", 
+                "icon": "<i class='fas fa-code'></i>",
+                "url": "#projects"
+            }, 
+            {
+                "name": "kontakt", 
+                "icon": "<i class='fas fa-mobile'></i>",
+                "url": "#contacts"
+            }
+        ],
+        "scrollImg": "../images/scroll.png",
+        "prev": "../images/behind.png",
+        "next": "../images/forvard.png",
+        "slider": [
+            {
+                "title": "Programowanie frontend",
+                "content": "w javascript lub react.js"
+            },
+            {
+                "title": "Programowanie backendowe",
+                "content": "w node.js z express.js"
+            },
+            {
+                "title": "Web design",
+                "content": "Tworzenia designu stron internetowych"
+            },
+            {
+                "title": "Graphics design",
+                "content": "projektowanie graficzne"
+            } 
+        ]
+    },
+
+    {   
+        "sectionName": "Welcome",
+        "title": "Witamy w Coding Bear",
+        "content": "Coding Bear jest firmą zajmującą się projektowaniem i programowaniem stron internetowych z siedzibą w Wrexham. Jeśli szukasz kogoś, kto wykona nową stronę dla Twojej Marki, jesteś we właściwym miejscu. Jak niedźwiedź lubi pracować? Każdy pomysł zaczyna się w głowie. Po dokładnym przemyśleniu przenosi wszystko na papier. Kolejnym etapem jest projektowanie w programie graficznym i tworzenie widoku. Kiedy układ jest skończony, niedźwiedź wykonuje najważniejszą rolę - programowanie. Ostatnia faza to testowanie twojej aplikację na lokalnym serwerze. Jeśli wszystko jest w porządku i działa poprawnie Niedźwiedź hostuje aplikację na nowym serwerze.",
+        "href": "#welcome",
+        "process": [
+            {
+                "title": "Research",
+                "img": "../images/research.png",
+                "desc": "Pierwszym krokiem w naszej pracy jest research. Musimy wiedzieć o twojej firmie wszystko co może być nam pomocne."
+            },
+            {
+                "title": "Projektowanie",
+                "img": "../images/design.png",
+                "desc": "Drugim etapem naszej pracy jest projektowanie wyglądu twojej witryny oraz mapy aplikacji ktra zawiera opisy wszystkich zdarzeń na stronie."
+            },
+            {
+                "title": "Budowanie",
+                "img": "../images/build.png",
+                "desc": "Następnym krokiem jest programowanie frontu oraz tyłu aplikacji. Jest to zdecydowanie najdłuższy proces."
+            },
+            {
+                "title": "Uruchamianie",
+                "img": "../images/launch.png",
+                "desc": "Kiedy cała aplikacja jest już gotowa uruchamiamy ją na serwerze i tworzywmy wszystkie domeny. Jest to ostatni krok na drodze projektowania."
+            },
+            {
+                "title": "Support",
+                "img": "../images/support.png",
+                "desc": "Po zakończeniu pracy możemy nadal pomagać przy utrzymaniu twojej witryny."
+            }
+        ]
+    },
+
+    {
+        "sectionName": "About",
+        "title": "O niedzwiedziu",
+        "href": "#about",
+        "bg": "url(../images/about.png)",
+        "bgMobile": "url(../images/aboutmobile.png)",
+        "content": "Witaj, nazywam się Kamil i jestem pracującym zdalnie (freelancer)  programistą/web-deweloperem. Swoje umiejętności oraz doświadczenie nabyłem w Polsce ucząc się i pracując kierunkowo. Zaowocowało to powstaniem marki Coding Bear pod którą wydaję swoje strony/aplikacje internetowe. Swoje projekty opieram głownie o nowoczesny i energicznie rozwijający się język jakim jest javascript. Pozwala to na tworzenie niezwykle szybkich interfejsów, wykorzystujących asynchroniczny przesył danych (two way data binding). Po stronie frontendu swoje aplikację projektuję za pomocą niezwykle szybkiego frameworka ReactJS lub też w czystym javascript – w zależności od stopnia skomplikowania powierzonego mi  projektu. Backend aplikacji natomiast zależy od kilku czynników (budżet, stopień skomplikowania, czas, indywidualne preferencje). Do każdego klienta staram się podchodzić indywidualnie. Każda firma ma inne potrzeby i sama wybiera pasujące rozwiązania oraz technologie – a ja staram się stanąć na wysokości zadania najlepiej jak to możliwe. Zapraszam do zapoznania się z moją ofertą."
+    },
+
+    {
+        "sectionName": "Services",
+        "title": "Co kodujący miś może ci zaoferować?",
+        "content": "Firma Coding Bear oferuję państwu swoje usługi w zakresie szeroko pojętego projektowania stron bazujących na nowoczesnym i asynchronicznym języku jakim jest javascript. Nasze aplikacje tworzone są w oparciu o framework react.js do wyrenderowania widoku, oraz REST API jako backend. Stworzone w ten sposób strony są nowoczesne i dobrze skalowalne. W celu minimalizacji kosztów projektujemy witryny również przy pomocy znanego systemu cms jakim jest wordpress. Każdy projekt wyceniany jest indywidualnie, a finalna cena zależy od kilku czynników - np. takich jak stopień skomplikowania projektu, czas wykonania,  dostępność domen czy przeznaczony budżet. Coding Bear zawsze stara się wycenić projekt w jak najbardziej korzystny dla klienta sposób. Zapraszamy do kontaktu w celu wyceny projektu – to nic nie kosztuję, a pomoże państwu przybliżyć cenę inwestycji. Prowadzimy również support dla już uruchomionych stron - o szczegóły pytaj indywidualnie.",
+        "href": "#offer",
+        "icons": [
+            {
+                "title": "Fully responsive",
+                "img": "../images/responsive.png"
+            },
+            {
+                "title": "Funcionality",
+                "img": "../images/funcionality.png"
+            },
+            {
+                "title": "High Performance",
+                "img": "../images/performance.png"
+            }
+        ]
+    },
+
+    {
+        "sectionName": "realizations",
+        "title": "Nasze realizacje",
+        "href": "#realizations",
+        "content": "undefined",
+        "background": "../images/realizations.png"
+    },
+
+    {
+        "sectionName": "contact",
+        "title": "Jak się skontaktować z niedzwiedziem",
+        "content": "undefined",
+        "href": "#contact",
+        "inputs": [ 
+            {   
+                "ID": "name",
+                "divID": "divName",
+                "actionID": "nameAction",
+                "value": "Podaj swoje imię",
+                "icon": "fa-user-circle",
+                "type": "text",
+                "hover": "minimalna długość: 3 znaki"
+            },
+            {
+                "ID": "surname",
+                "divID": "divSurname",
+                "actionID": "surnameAction",
+                "value": "Podaj swoje nazwisko",
+                "icon": "fa-address-card",
+                "type": "text",
+                "hover": "minimalna długość: 3 znaki"
+            },
+            {
+                "ID": "mail",
+                "divID": "divMail",
+                "actionID": "mailAction",
+                "value": "Podaj adres email",
+                "icon": "fa-at",
+                "type": "email",
+                "hover": "minimalna długość: 5 znakow i musi zawierać @"
+            },
+            {
+                "ID": "number",
+                "divID": "divNumber",
+                "actionID": "numberAction",
+                "value": "Podaj nr telefonu",
+                "icon": "fa-mobile-alt",
+                "type": "text",
+                "hover": "minimalna długość: 6 znakow i musi składać się z liczb"
+            }
+        ],
+        "textarea": {
+            "id": "textarea",
+            "content": "Your message"
+        },
+        "advice": "*najedz myszką na ikonę po prawej strone aby wyświetlić wskazowki",
+        "or": "lub",
+        "btn": "pokaż dane kontaktowe"
+    },
+
+    {
+        "sectionName": "footer",
+        "copyright": "Copyright © 2018-2019 Codding Bear - All Rights Reserved",
+        "background": "../images/footer.png",
+        "backgroundMobile": "../images/mobilefooter.png"
+    }
+]}

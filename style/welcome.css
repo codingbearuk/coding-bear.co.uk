@@ -1,0 +1,110 @@
+@keyframes menubar {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: -300px;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: 0px;
+  }
+}
+@keyframes menuback {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+    border-color: rgba(233, 155, 60, 0);
+    right: 0;
+  }
+  to {
+    background-color: #601f3c;
+    border-color: #e99b3c;
+    right: -300px;
+  }
+}
+@keyframes search {
+  from {
+    background-color: rgba(96, 31, 60, 0);
+  }
+  to {
+    background-color: rgba(96, 31, 60, 0.7);
+  }
+}
+@keyframes scrollBtn {
+  0% {
+    bottom: 15%;
+  }
+  80% {
+    bottom: 13%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+@keyframes process {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+#welcome {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: justify;
+}
+#process {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 50vh;
+}
+#process div {
+  margin: auto;
+  width: 16%;
+  height: 30vh;
+  max-width: 16%;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+#process div img {
+  width: 100%;
+}
+#process div p {
+  font-size: 0.9rem;
+  text-align: center;
+  height: 100%;
+}
+#process div .hidden {
+  display: none;
+}
+#process div:hover {
+  background-color: #e99b3c;
+  transition-duration: 700ms;
+}
+.process-active {
+  height: 50vh !important;
+  background-color: #e99b3c;
+  transition-duration: 0.6s;
+  animation-name: process;
+  animation-duration: 600ms;
+}
+@media screen and (max-width: 600px) {
+  #process {
+    display: block;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #process div {
+    width: 50%;
+    max-width: 50%;
+  }
+  .process-active {
+    height: auto !important;
+    background-color: #e99b3c;
+    transition-duration: 0.6s;
+    animation-name: process;
+    animation-duration: 600ms;
+  }
+}
